@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CMTask/CMTask.csproj">
+    <Deploy Solution="Release|*" />
+  </Project>
+</Solution>

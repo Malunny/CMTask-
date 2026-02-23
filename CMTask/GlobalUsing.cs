@@ -1,0 +1,12 @@
+global using CMTask.UI;
+global using CMTask.Service;
+global using CMTask.Interfaces;
+global using CMTask.View;
+global using CMTask.Service.Paginators;
+global using TaskWorking.Data;
+global using TaskWorking.Configuration;
+global using TaskWorking.View;
+global using TaskWorking.Model;
+global using System;
+global using System.Collections.Generic;
+global using System.Text;
