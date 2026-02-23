@@ -43,7 +43,7 @@ namespace CMTask.Service.ArchiveServices
                     Console.SetCursorPosition(10, 5);
                     Console.Write("Write and enter -0 to exit this mode.");
                     Console.SetCursorPosition(10, 6);
-                    Console.Write($"Id: {idNumerator} | Título: {nowTask[1, 1]} ");
+                    Console.Write($"Id: {idNumerator} | Title: {nowTask[1, 1]} ");
                     Console.SetCursorPosition(10, 7);
                     Console.Write($"|- Description: {nowTask[2, 1]}");
                     Console.SetCursorPosition(10, 11);

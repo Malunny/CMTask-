@@ -18,7 +18,7 @@ namespace CMTask.UI
 
             _uIWritter.WriteOn($"Editing task with ID: {_id}", 10, 2, ConsoleColor.Green);
             _uIWritter.WriteOn("-----------------------------", 10, 3, ConsoleColor.White);
-            _uIWritter.WriteOn("Enter nothing to don't change or what you want to change.", 10, 5, ConsoleColor.Yellow);
+            _uIWritter.WriteOn("Write and press enter to change - Leave empty and press enter to don't change.", 10, 5, ConsoleColor.Yellow);
 
             _uIWritter.WriteOn("Title: ", 10, 6, ConsoleColor.White);
             string? title = Console.ReadLine() ?? "";
